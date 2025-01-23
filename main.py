@@ -1,5 +1,5 @@
 import streamlit as st
-from keras.models import load_model
+from keras.models import load_model # type: ignore
 from PIL import Image
 import numpy as np
 from streamlit_extras.stylable_container import stylable_container
