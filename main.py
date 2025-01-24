@@ -1,6 +1,6 @@
 import streamlit as st
-import keras 
-from keras.models import load_model # type: ignore
+import tensorflow
+from keras.models import load_model 
 from PIL import Image
 import numpy as np
 from streamlit_extras.stylable_container import stylable_container
